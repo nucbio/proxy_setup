@@ -8,5 +8,5 @@ You need to manually setup proxy in settings to have access to the Internet:
 
 2. Run in Terminal:
 ```bash
-wget -qO- https://github.com/nubio/proxy_setup/raw/main/install.sh | bash
+wget -qO- https://github.com/nucbio/proxy_setup/raw/main/install.sh | bash
 ```
