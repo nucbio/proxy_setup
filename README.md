@@ -9,9 +9,19 @@ Alternatively run from the terminal:
 ```bash
 gsettings set org.gnome.system.proxy.https host 'ukd-proxy'
 gsettings set org.gnome.system.proxy.https port 80
+gsettings set org.gnome.system.proxy mode 'manual'
+```
+2. Relogin to the Terminal
+```bash
+exit
 ```
 
-2. Run in Terminal:
+3. Run in terminal Terminal:
 ```bash
 wget -qO- https://github.com/nucbio/proxy_setup/raw/main/install.sh | bash
+```
+
+4. Relogin to run further setups
+```bash
+exit
 ```
