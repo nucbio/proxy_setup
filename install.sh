@@ -31,7 +31,6 @@ gsettings set org.gnome.system.proxy.socks host 'ukd-proxy'
 gsettings set org.gnome.system.proxy.socks port 80
 echo "✔ System proxy configured"
 
-
 # Setup proxy for apt
 APT_PROXY_FILE="/etc/apt/apt.conf.d/80proxy"
 if [ ! -f "$APT_PROXY_FILE" ] || ! grep -q "ukd-proxy" "$APT_PROXY_FILE"; then
