@@ -18,7 +18,7 @@ exit
 
 3. Run in the Terminal:
 ```bash
-wget -qO- https://github.com/nucbio/proxy_setup/raw/main/install.sh | bash
+wget -qO- https://github.com/nucbio/proxy-setup/raw/main/install.sh | bash
 ```
 
 4. Exit and restart your shell to run further setups:
